@@ -1,8 +1,15 @@
-# React + Vite
+# component-library-ac
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A collection of reusable React components.
 
-Currently, two official plugins are available:
+[![NPM Version](https://img.shields.io/npm/v/component-library-ac.svg)](https://www.npmjs.com/package/component-library-ac)
+[![License](https://img.shields.io/github/license/alphacrash/component-library-ac.svg)](LICENSE)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Installation
+
+You can install this library using npm or yarn:
+
+```bash
+npm install component-library-ac
+# or
+yarn add component-library-ac
