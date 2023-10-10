@@ -1,6 +1,6 @@
 {
   "name": "component-library-ac",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -9,6 +9,16 @@
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
+  },
+  "main": "./dist/index.js",
+  "module": "./dist/index.es.js",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": [
+      "./dist/main.js"
+    ]
   },
   "dependencies": {
     "@emotion/react": "^11.11.1",
